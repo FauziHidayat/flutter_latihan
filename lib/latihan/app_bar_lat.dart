@@ -20,13 +20,8 @@ class AppBarLat extends StatelessWidget {
           ),
           backgroundColor: Colors.green,
           actions: <Widget>[
-            IconButton(
-                onPressed: () {},
-                icon: Icon(Icons.settings)),
-            IconButton(
-                onPressed: () {},
-                icon: Icon(Icons.exit_to_app)),
-
+            IconButton(onPressed: () {}, icon: Icon(Icons.settings)),
+            IconButton(onPressed: () {}, icon: Icon(Icons.exit_to_app)),
           ],
         ),
       ),
