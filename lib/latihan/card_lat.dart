@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 void main() {
   runApp(new CardLat());
 }
@@ -12,23 +11,18 @@ class CardLat extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.white,
         appBar: AppBar(
-          leading: Icon(
+          leading:const Icon(
             Icons.arrow_back,
             color: Colors.white,
           ),
-          title: Text(
+          title: const Text(
             'Latihan Flutter',
             style: TextStyle(fontStyle: FontStyle.italic),
           ),
           backgroundColor: Colors.green,
           actions: <Widget>[
-            IconButton(
-                onPressed: () {},
-                icon: Icon(Icons.settings)),
-            IconButton(
-                onPressed: () {},
-                icon: Icon(Icons.exit_to_app)),
-
+            IconButton(onPressed: () {}, icon: Icon(Icons.settings)),
+            IconButton(onPressed: () {}, icon: Icon(Icons.exit_to_app)),
           ],
         ),
         body: Container(
@@ -39,7 +33,9 @@ class CardLat extends StatelessWidget {
                 elevation: 10,
                 child: Row(
                   children: <Widget>[
-                    Container( margin: EdgeInsets.all(5),child: Icon(Icons.account_box)),
+                    Container(
+                        margin: EdgeInsets.all(5),
+                        child: Icon(Icons.account_box)),
                     Text("Account Box")
                   ],
                 ),

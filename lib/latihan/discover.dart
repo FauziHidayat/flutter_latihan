@@ -1,11 +1,10 @@
-
 import 'package:flutter/material.dart';
 import 'package:animate_do/animate_do.dart';
 import 'package:salomon_bottom_bar/salomon_bottom_bar.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 
 class DiscoverPage extends StatefulWidget {
-  const DiscoverPage({ Key? key }) : super(key: key);
+  const DiscoverPage({Key? key}) : super(key: key);
 
   @override
   _DiscoverPageState createState() => _DiscoverPageState();
@@ -29,8 +28,7 @@ class _DiscoverPageState extends State<DiscoverPage> {
     'https://images.unsplash.com/photo-1531204420596-d4e8af13de95?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMTN8fHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
     'https://images.unsplash.com/photo-1633245091570-cd62f7f116a3?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMjd8fHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
     'https://images.unsplash.com/photo-1633247835403-f7fde396f4ab?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMzB8fHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
-    'https://images.unsplash.com/photo-1633260676663-eb70faaa8805?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNDB8fHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'
-        'https://images.unsplash.com/photo-1633211387371-88c4838cbfb4?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNDJ8fHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+    'https://images.unsplash.com/photo-1633260676663-eb70faaa8805?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNDB8fHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60''https://images.unsplash.com/photo-1633211387371-88c4838cbfb4?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNDJ8fHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
     'https://images.unsplash.com/photo-1633177317976-3f9bc45e1d1d?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
     'https://images.unsplash.com/photo-1633113093730-47449a1a9c6e?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxMXx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
     'https://images.unsplash.com/photo-1633209942287-701d44019290?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3N3x8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
@@ -53,8 +51,7 @@ class _DiscoverPageState extends State<DiscoverPage> {
     'https://images.unsplash.com/photo-1531204420596-d4e8af13de95?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMTN8fHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
     'https://images.unsplash.com/photo-1633245091570-cd62f7f116a3?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMjd8fHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
     'https://images.unsplash.com/photo-1633247835403-f7fde396f4ab?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMzB8fHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
-    'https://images.unsplash.com/photo-1633260676663-eb70faaa8805?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNDB8fHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'
-        'https://images.unsplash.com/photo-1633211387371-88c4838cbfb4?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNDJ8fHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+    'https://images.unsplash.com/photo-1633260676663-eb70faaa8805?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNDB8fHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60''https://images.unsplash.com/photo-1633211387371-88c4838cbfb4?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNDJ8fHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
     'https://images.unsplash.com/photo-1633267538438-2d49aeb844f7?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw2N3x8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
     'https://images.unsplash.com/photo-1633172905740-2eb6730c95b4?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4MXx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
     'https://images.unsplash.com/photo-1633277194892-c5e2bba2d40f?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3OHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
@@ -65,8 +62,7 @@ class _DiscoverPageState extends State<DiscoverPage> {
     'https://images.unsplash.com/photo-1531204420596-d4e8af13de95?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMTN8fHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
     'https://images.unsplash.com/photo-1633245091570-cd62f7f116a3?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMjd8fHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
     'https://images.unsplash.com/photo-1633247835403-f7fde396f4ab?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMzB8fHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
-    'https://images.unsplash.com/photo-1633260676663-eb70faaa8805?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNDB8fHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'
-        'https://images.unsplash.com/photo-1633211387371-88c4838cbfb4?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNDJ8fHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+    'https://images.unsplash.com/photo-1633260676663-eb70faaa8805?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNDB8fHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60''https://images.unsplash.com/photo-1633211387371-88c4838cbfb4?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNDJ8fHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
     'https://images.unsplash.com/photo-1633177317976-3f9bc45e1d1d?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
     'https://images.unsplash.com/photo-1633113093730-47449a1a9c6e?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxMXx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
     'https://images.unsplash.com/photo-1633209942287-701d44019290?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3N3x8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
@@ -105,23 +101,19 @@ class _DiscoverPageState extends State<DiscoverPage> {
             SalomonBottomBarItem(
                 icon: Icon(Icons.home),
                 title: Text("Home"),
-                selectedColor: Colors.purple
-            ),
+                selectedColor: Colors.purple),
             SalomonBottomBarItem(
                 icon: Icon(Icons.favorite_border),
                 title: Text("Likes"),
-                selectedColor: Colors.pink
-            ),
+                selectedColor: Colors.pink),
             SalomonBottomBarItem(
                 icon: Icon(Icons.search),
                 title: Text("Search"),
-                selectedColor: Colors.orange
-            ),
+                selectedColor: Colors.orange),
             SalomonBottomBarItem(
                 icon: Icon(Icons.person),
                 title: Text("Profile"),
-                selectedColor: Colors.teal
-            )
+                selectedColor: Colors.teal)
           ],
         ),
         body: NestedScrollView(
@@ -132,15 +124,26 @@ class _DiscoverPageState extends State<DiscoverPage> {
                     padding: EdgeInsets.all(20.0),
                     child: Column(
                       children: [
-                        SizedBox(height: 60,),
+                        SizedBox(
+                          height: 60,
+                        ),
                         FadeInDown(
                           child: Row(
                             children: [
-                              Text("Discover \nToday's Posts 🔥", style: TextStyle(fontSize: 32, fontWeight: FontWeight.w600, color: Colors.grey.shade800, height: 1.5),)
+                              Text(
+                                "Discover \nToday's Posts 🔥",
+                                style: TextStyle(
+                                    fontSize: 32,
+                                    fontWeight: FontWeight.w600,
+                                    color: Colors.grey.shade800,
+                                    height: 1.5),
+                              )
                             ],
                           ),
                         ),
-                        SizedBox(height: 20,),
+                        SizedBox(
+                          height: 20,
+                        ),
                         FadeInDown(
                           delay: Duration(milliseconds: 400),
                           duration: Duration(milliseconds: 800),
@@ -148,16 +151,18 @@ class _DiscoverPageState extends State<DiscoverPage> {
                             height: 46,
                             decoration: BoxDecoration(
                                 color: Colors.grey.shade200,
-                                borderRadius: BorderRadius.circular(8)
-                            ),
+                                borderRadius: BorderRadius.circular(8)),
                             child: TextField(
                               cursorColor: Colors.black,
                               decoration: InputDecoration(
-                                  prefixIcon: Icon(Icons.search, color: Colors.grey.shade700,),
+                                  prefixIcon: Icon(
+                                    Icons.search,
+                                    color: Colors.grey.shade700,
+                                  ),
                                   border: InputBorder.none,
                                   hintText: "Classic Style",
-                                  hintStyle: TextStyle(color: Colors.grey.shade500)
-                              ),
+                                  hintStyle:
+                                      TextStyle(color: Colors.grey.shade500)),
                             ),
                           ),
                         )
@@ -179,48 +184,55 @@ class _DiscoverPageState extends State<DiscoverPage> {
                             unselectedLabelColor: Colors.grey.shade600,
                             indicatorColor: Colors.black,
                             tabs: [
-                              Tab(text: "Popular",),
-                              Tab(text: "New",),
-                              Tab(text: "Classic",),
-                              Tab(text: "Stylish",)
-                            ]
-                        )
-                    ),
+                          Tab(
+                            text: "Popular",
+                          ),
+                          Tab(
+                            text: "New",
+                          ),
+                          Tab(
+                            text: "Classic",
+                          ),
+                          Tab(
+                            text: "Stylish",
+                          )
+                        ])),
                   ),
                   Expanded(
-                    child: TabBarView(children: [
-                      StaggeredGridView.countBuilder(
-                        padding: EdgeInsets.all(0),
-                        crossAxisCount: 4,
-                        controller: _scrollController,
-                        itemCount: images.length,
-                        itemBuilder: (context, index) {
-                          return FadeInUp(
-                            delay: Duration(milliseconds: index * 50),
-                            duration: Duration(milliseconds: (index * 50) + 800),
-                            child: Container(
-                              color: Colors.black,
-                              child: Image.network(
-                                images[index],
-                                fit: BoxFit.cover,
+                    child: TabBarView(
+                      children: [
+                        StaggeredGridView.countBuilder(
+                          padding: EdgeInsets.all(0),
+                          crossAxisCount: 4,
+                          controller: _scrollController,
+                          itemCount: images.length,
+                          itemBuilder: (context, index) {
+                            return FadeInUp(
+                              delay: Duration(milliseconds: index * 50),
+                              duration:
+                                  Duration(milliseconds: (index * 50) + 800),
+                              child: Container(
+                                color: Colors.black,
+                                child: Image.network(
+                                  images[index],
+                                  fit: BoxFit.cover,
+                                ),
                               ),
-                            ),
-                          );
-                        },
-                        staggeredTileBuilder: (int index) =>
-                        new StaggeredTile.count(2, index.isEven ? 4 : 2),
-                        mainAxisSpacing: 1.0,
-                        crossAxisSpacing: 1.0,
-                      ),
-                      Center(),
-                      Center(),
-                      Center()
-                    ],),
+                            );
+                          },
+                          staggeredTileBuilder: (int index) =>
+                              new StaggeredTile.count(2, index.isEven ? 4 : 2),
+                          mainAxisSpacing: 1.0,
+                          crossAxisSpacing: 1.0,
+                        ),
+                        Center(),
+                        Center(),
+                        Center()
+                      ],
+                    ),
                   )
                 ],
               ),
-            )
-        )
-    );
+            )));
   }
 }
